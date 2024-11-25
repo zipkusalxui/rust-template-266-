@@ -1,0 +1,69 @@
+# Общие исключения
+*.user
+*.lock
+*.DS_Store
+*.suo
+*.sln.docstates
+*.log
+*.env
+
+# Build папки
+bin/
+obj/
+out/
+
+# Пакеты
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+!packages/repositories.config
+
+# Конфигурационные файлы Visual Studio
+*.sln.ide
+*.suo
+*.vsp
+*.user
+*.userosscache
+*.sln.docstates
+
+# Автоматически генерируемые файлы
+*.generated.cs
+*.g.i.cs
+*.g.cs
+
+.vs/
+.idea/
+.cache/
+*.pidb
+*.ide-helper
+
+# Сертификаты и ключи
+*.pfx
+*.cer
+*.key
+*.snk
+
+# Компоненты и зависимости
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper файлы
+_ReSharper*/
+*.DotSettings.user
+
+# Entity Framework миграции
+App_Data/
+migrations/
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# JetBrains Rider
+.idea/
+
+# Mac OS специфичные
+.DS_Store
+*.dSYM
