@@ -1,4 +1,10 @@
-# Общие исключения
+# Specific project files
+.vscode/deprecated-hooks.json
+.vscode/hook-settings.json
+.vscode/hook-styles.json
+.vscode/rust-hooks.json
+
+# General exclusions
 *.user
 *.lock
 *.DS_Store
@@ -7,19 +13,19 @@
 *.log
 *.env
 
-# Build папки
+# Build folders
 bin/
 obj/
 out/
 
-# Пакеты
+# Package files
 *.nupkg
 *.snupkg
 packages/
 !packages/build/
 !packages/repositories.config
 
-# Конфигурационные файлы Visual Studio
+# Visual Studio configuration files
 *.sln.ide
 *.suo
 *.vsp
@@ -27,33 +33,34 @@ packages/
 *.userosscache
 *.sln.docstates
 
-# Автоматически генерируемые файлы
+# Auto-generated files
 *.generated.cs
 *.g.i.cs
 *.g.cs
 
+# IDE-specific directories and files
 .vs/
 .idea/
 .cache/
 *.pidb
 *.ide-helper
 
-# Сертификаты и ключи
+# Certificates and keys
 *.pfx
 *.cer
 *.key
 *.snk
 
-# Компоненты и зависимости
+# Components and dependencies
 project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# Resharper файлы
+# Resharper files
 _ReSharper*/
 *.DotSettings.user
 
-# Entity Framework миграции
+# Entity Framework migrations
 App_Data/
 migrations/
 
@@ -64,6 +71,6 @@ docker-compose.override.yml
 # JetBrains Rider
 .idea/
 
-# Mac OS специфичные
+# macOS specific
 .DS_Store
 *.dSYM
