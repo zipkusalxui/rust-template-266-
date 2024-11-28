@@ -3,10 +3,18 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <LangVersion>10</LangVersion>
+    <NoWarn>MSB3277</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include=".\Managed\*.dll">
       <Private>False</Private>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="rust-analyzer" Version="1.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  
 </Project>

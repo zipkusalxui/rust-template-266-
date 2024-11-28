@@ -6,5 +6,12 @@
     "**/.vs": true,
     "rust-template.sln": true,
     ".gitignore": true
-  }
+  },
+  "editor.codeLens": true,
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.enableMSBuildLoadProjectsOnDemand": true,
+  "omnisharp.loggingLevel": "information",
+  "omnisharp.msbuildBuildVerbosity": "normal",
+  "omnisharp.useModernNet": true
 }
