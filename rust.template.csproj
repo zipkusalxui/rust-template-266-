@@ -10,11 +10,10 @@
       <Private>False</Private>
     </Reference>
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="rust-analyzer" Version="7.0.0">
+   <ItemGroup>
+    <PackageReference Include="rust-analyzer" Version="8.0.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-  </ItemGroup>
-  
+  </ItemGroup> 
 </Project>
