@@ -5,6 +5,7 @@
     <LangVersion>10</LangVersion>
     <NoWarn>MSB3277</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include=".\Managed\*.dll">
