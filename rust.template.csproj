@@ -12,7 +12,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="rust-analyzer" Version="8.0.12">
+    <PackageReference Include="rust-analyzer" Version="8.0.13">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
